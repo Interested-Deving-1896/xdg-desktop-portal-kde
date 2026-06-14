@@ -1,23 +1,75 @@
+[update-readmes]   Mode: rewrite — migrating to template structure...
 # xdg-desktop-portal-kde
 
-A backend implementation for [xdg-desktop-portal](http://github.com/flatpak/xdg-desktop-portal)
-that is using Qt/KF6.
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/xdg-desktop-portal-kde)
 
-## Building xdg-desktop-portal-kde
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-### Dependencies:
- - xdg-desktop-portal (runtime dependency)
- - Qt 6 (build dependency)
- - KDE Frameworks - KCoreAddons, KI18n, KNotifications(build dependency)
+## Architecture
 
-### Build instructions:
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
+
+## Install
+
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
+
+```bash
+git clone https://github.com/Interested-Deving-1896/xdg-desktop-portal-kde.git
+cd xdg-desktop-portal-kde
 ```
-$ mkdir build && cd build
-$ cmake .. [your_options]
-$ make -j5
-$ make install
+
+## Usage
+
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
+
+## Configuration
+
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
+
+## CI
+
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
+
+## Mirror chain
+
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/xdg-desktop-portal-kde`](https://github.com/Interested-Deving-1896/xdg-desktop-portal-kde) and mirrored through:
+
+```
+Interested-Deving-1896/xdg-desktop-portal-kde  ──►  OpenOS-Project-OSP/xdg-desktop-portal-kde  ──►  OpenOS-Project-Ecosystem-OOC/xdg-desktop-portal-kde
 ```
 
-## Testing xdg-desktop-portal-kde
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
 
-The repository [xdg-portal-test-kde](https://invent.kde.org/libraries/xdg-portal-test-kde) contains a simple test application.
+## Contributors
+
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
+
+## Origins
+
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
+
+## License
+
+<!-- AI:start:license -->
+<!-- License not detected — add a LICENSE file to this repo. -->
+<!-- AI:end:license -->
